@@ -133,25 +133,19 @@ footer{
 }
 
 .homework {
-    border-radius: 10px;
-    background-color: white;
-    border: 1px solid white;
-    padding:10px;
-    transition: ease-out 0.3s;
-    margin:20px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid white;
+  padding: 10px 16px;
+  margin: 20px;
+  font-size: 16px;
+  color: #19A1AE;
+  text-decoration: none;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
-.homework a{
-    font-size: 16px;
-    color:#19A1AE;
-    text-decoration: none;
-}
-
-
-.homework:hover{
-    background-color: #19A1AE;
-}
-
-.homework a:hover{
-    color:white;
+.homework:hover {
+  background-color: #19A1AE;
+  color: white;
 }
